@@ -1,0 +1,13 @@
+Table of houses with their points
+Ability to change the points of each house
+
+Ability to go to each individual event and look at the students names from place 1-10
+Ability to search for an event by name and see a summary screen
+Ability to change any of the attributes on the summary screen for each 
+Seperate screen to view a table with all information
+Ability to add events with names and everything
+
+Ability to modify placements and points
+Ability to delete event
+Ability to search for any student
+
