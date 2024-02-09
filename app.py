@@ -18,11 +18,6 @@ from werkzeug.datastructures import  FileStorage
 
 
 app = Flask(__name__)
-secret = os.urandom(12)
-app.config['SECRET_KEY'] = secret
-app.config['MAX_CONTENT-PATH'] = 80
-app.config['UPLOAD_EXTENSIONS'] = ['.jpg', '.png']
-Acc = {'email': 'admin@slasmail.com', 'password': 'password'}
 
 @app.route("/", methods=["GET", "POST"])
 def main():
