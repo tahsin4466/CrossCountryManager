@@ -9,13 +9,13 @@ This project was built using a Flask backend and an HTML/CSS/JS front-end with B
 PLEASE READ: This project relied on database infrastructure that is no longer available! It was run using a phpMyAdmin server, but that has since ceased to exist. You can attempt to run your own phpMyAdmin server, but it will not work otherwise. If you wish to continue, the rest of the steps are here:
 Make sure you have the latest version of Python installed (preferabbly 3.12+).
 
-This project requires Flask - a back-end framework for creating web applications. Using pip, run:
+This project requires Flask: a back-end framework for creating web applications. Using pip, run:
 
 ```
 pip install flask
 ```
 
-Make sure to have flask configured to:
+Make sure to have Flask configured to:
  - Target the file `app.py`
  - Media/static folder set to `static`
  - Templates folder set to `templates`
